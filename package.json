@@ -1,0 +1,21 @@
+{
+  "name": "twitch-api",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "tsc": "node node_modules/typescript/bin/tsc",
+    "build": "npm run tsc",
+    "dev-build": "npm run tsc -- -w",
+    "clean": "rm -rf lib"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^10.12.1",
+    "axios": "^0.18.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.1.4"
+  }
+}
