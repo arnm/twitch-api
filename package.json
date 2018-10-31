@@ -8,7 +8,8 @@
     "tsc": "node node_modules/typescript/bin/tsc",
     "build": "npm run tsc",
     "dev-build": "npm run tsc -- -w",
-    "clean": "rm -rf lib"
+    "clean": "rm -rf lib",
+    "prepare": "npm run build"
   },
   "license": "MIT",
   "dependencies": {
